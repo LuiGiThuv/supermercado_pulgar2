@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "supermercado_pulgar",
+    "slug": "supermercado_pulgar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.supermercado_pulgar.supermercado_pulgar"  //Aquí agregas tu identificador de paquete
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
